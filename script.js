@@ -22,7 +22,7 @@ var constant = pipeNorth.height+gap;
 var bX = 10;
 var bY = 150;
 
-var gravity = 1.5;
+var gravity = 2.5;
 
 var score = 0;
 
@@ -39,7 +39,7 @@ loose.src = "sounds/loose.wav";
 document.addEventListener("keydown",moveUp);
 
 function moveUp(){
-    bY -= 35;
+    bY -= 25;
     fly.play();
 }
 
