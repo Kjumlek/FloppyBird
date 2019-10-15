@@ -39,7 +39,7 @@ loose.src = "sounds/loose.wav";
 document.addEventListener("keydown",moveUp);
 
 function moveUp(){
-    bY -= 25;
+    bY -= 35;
     fly.play();
 }
 
