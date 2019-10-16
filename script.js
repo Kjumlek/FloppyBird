@@ -77,6 +77,9 @@ function draw(){
         {
             location.reload();
         }
+        else if (bY + bird.height >= 396){
+            location.reload();
+        }
         
         if(pipe[i].x == 5){
             score++;
